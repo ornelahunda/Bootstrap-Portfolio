@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Document title -->
+  <title>Bootstrap Portfolio</title>
+  <!-- Character set -->
+  <meta charset="utf-8">
+  <!-- The following code makes the document responsive accross different devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Linking with Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Linking with CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<!-- This is the body of the page and contains the visible part of the 
+    website --> 
+<body>
+
+<!-- PAGE HEADER NAV BAR -->
+
+<nav class="navbar navbar-default">
+   <div class="container">
+<div class="navbar-header">
+Ornela Hunda
+</div> 
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="index.html" style=" border-right: 1px solid #efefef;">
+      About</a>
+      </li>
+    <li><a href="portfolio.html" style= "border-right: 1px solid #efefef;">
+      Portfolio</a>
+    </li>
+    <li><a href="contact.html">
+      Contact</a></li>
+</ul>  
+</div>                  
+</nav>      
+<!-- End of navbar -->
+
+
+<!-- Center content of the document -->
+
+<div class="wrapper">
+<div class="row">
+
+    
+  <!-- empty space -->
+  <div class="col-md-1"> </div>
+   
+  
+  <!--left content  -->
+
+     
+    <div class="col-md-6" id="center">
+  
+      <!-- content header -->
+      <div class="page-header">
+        <h2>Contact</h2>
+    </div>
+
+       <!-- content body -->
+           
+     <form action="/.php" autocomplete="on">
+        Name:<br>
+         <input type="text" name="name" >
+         <br>
+       E-mail:<br>
+         <input type="email" name="email">
+         <br>
+         Message: <br>
+         <textarea name="message" rows="20" cols="30"></textarea>
+         <br>
+         <input type="submit" value="Submit">
+       </form> 
+
+   </div>
+
+  <div class="col-md-1"></div> 
+<!-- This is the right section of the main content, where are located 
+    links to authors profile in github, linkedIn and stackoverflow -->
+<div class="col-md-3">
+<div class="panel" id="centerRight">
+   <!-- Panel Title -->  
+   <div class="panel-heading">
+<h3 class="panel-title">Connect with Me</h3>
+</div>
+<hr> 
+<!-- Panel Content -->
+<div class="panel-body">
+          <ul class="list-group list-inline">
+            <li class="list-group-item">
+              <a href="https://github.com/ornelahunda">
+                <img class="icon" 
+                src="assets/images/github.png"
+                alt="GitHub Profile"></a></li>
+              <li class="list-group-item">
+                <a href="https://www.linkedin.com/in/ornelahunda/">
+                  <img class="icon" 
+                  src="assets/images/linkedin.png" 
+                  alt="LinkedIn Profile"></a></li>
+              <li class="list-group-item">
+                <a href="https://stackoverflow.com/users/8973296/ornela" >
+                  <img class="icon" 
+                  src="assets/images/if_stackoverflow_273179.png"
+                   alt="StackOverflow Profile"></a></li>
+ </ul>
+ </div>
+</div>
+</div>
+
+
+<div class="col-md-1"></div>
+</div>
+</div> 
+<!-- Document's footer -->
+
+
+
+  <footer class="container-fluid text-center">
+    <p>Copyright © 2018 Ornela Hunda</p>
+   
+  </footer>
+
+</body>
+</html>
